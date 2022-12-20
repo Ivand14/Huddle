@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.contenedor-header {
+  background-image: url("../images/bg-hero-desktop.svg");
+  background-size: cover;
+  max-width: 100%;
+  height: 70rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 10rem;
+}
+.navbar img {
+  height: 3rem;
+}
+.navbar a {
+  font-size: 1.5rem;
+  color: #000;
+  padding: 1rem 1rem;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: white;
+  border: white solid 0px;
+  width: 20rem;
+  border-radius: 100px;
+  box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.3);
+  transition: all 800ms;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+  transition: all 800ms;
+  color: #000;
+}
+
+.contenedor-cuerpo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 10rem;
+  gap: 5rem;
+}
+
+.contenedor-texto-header h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  text-align: start;
+  width: 50rem;
+  margin-bottom: 2.5rem;
+  line-height: 6rem;
+}
+.contenedor-texto-header p {
+  font-size: 2rem;
+}
+.contenedor-texto-header a {
+  font-size: 2rem;
+}
+
+.img-header img {
+  height: 50rem;
+}
+
+.btn1 {
+  background-color: hsl(322deg, 100%, 66%);
+  border: hsl(322deg, 100%, 66%);
+  border-radius: 100px;
+  width: 30rem;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+
+.btn1:hover {
+  background-color: hsla(322deg, 100%, 66%, 0.753);
+  color: whitesmoke;
+}
+
+.contenedor-1, .contenedor-3, .contenedor-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+  margin: 15rem 5rem;
+  padding: 8rem 8rem;
+  border: solid white 0.3rem;
+  box-shadow: 0.3rem 0.3rem 1rem hsl(208deg, 11%, 55%);
+  border-radius: 2rem;
+}
+
+.texto-contenedor1, .texto-contenedor3, .texto-contenedor2 {
+  display: flex;
+  flex-direction: column;
+}
+.texto-contenedor1 h2, .texto-contenedor3 h2, .texto-contenedor2 h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.texto-contenedor1 p, .texto-contenedor3 p, .texto-contenedor2 p {
+  font-size: 2.2rem;
+  width: 60rem;
+  color: hsl(208deg, 11%, 55%);
+}
+
+.img-contenedor1 img, .img-contenedor3 img, .img-contenedor2 img {
+  height: 30rem;
+}
+
+.contenedor-2 {
+  flex-direction: row-reverse;
+  margin-top: -10rem;
+}
+
+.contenedor-3 {
+  margin-top: -10rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
