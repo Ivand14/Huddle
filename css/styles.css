@@ -8,12 +8,17 @@ html {
   font-size: 62.5%;
 }
 
+.contenedor-principal {
+  overflow: hidden;
+}
+
 .contenedor-header {
   background-image: url("../images/bg-hero-desktop.svg");
   background-size: cover;
   max-width: 100%;
   height: 70rem;
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 
 .navbar {
@@ -52,6 +57,7 @@ html {
   align-items: center;
   margin: 1rem 10rem;
   gap: 5rem;
+  overflow: hidden;
 }
 
 .contenedor-texto-header h1 {
@@ -73,7 +79,7 @@ html {
   height: 50rem;
 }
 
-.btn1 {
+.btn1, .btn2 {
   background-color: hsl(322deg, 100%, 66%);
   border: hsl(322deg, 100%, 66%);
   border-radius: 100px;
@@ -82,9 +88,13 @@ html {
   margin-top: 2rem;
 }
 
-.btn1:hover {
+.btn1:hover, .btn2:hover {
   background-color: hsla(322deg, 100%, 66%, 0.753);
   color: whitesmoke;
+}
+
+.contenedor-main {
+  overflow: hidden;
 }
 
 .contenedor-1, .contenedor-3, .contenedor-2 {
@@ -125,6 +135,108 @@ html {
 
 .contenedor-3 {
   margin-top: -10rem;
+}
+
+.comunidad {
+  display: flex;
+  justify-content: center;
+}
+
+.texto-comunidad {
+  position: relative;
+  top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  background-color: white;
+  padding: 6rem 12rem;
+  border-radius: 1rem;
+  box-shadow: 0.3rem 0.3rem 1rem hsl(240deg, 4%, 5%);
+  width: 70rem;
+  z-index: 1;
+}
+.texto-comunidad h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.btn2 {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  z-index: 1;
+}
+
+.contenedor-footer {
+  background-color: hsl(192deg, 100%, 9%);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.datos-empresa {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+  padding: 13rem 5rem;
+}
+
+.logo {
+  filter: brightness(4);
+}
+.logo img {
+  height: 3rem;
+}
+
+.location, .email, .tel {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.location img, .email img, .tel img {
+  height: 2rem;
+}
+.location p, .email p, .tel p {
+  font-size: 1.4rem;
+  color: wheat;
+  width: 40rem;
+}
+
+.links-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+  margin-right: 18rem;
+}
+.links-footer ul li {
+  list-style-type: none;
+  color: wheat;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 21rem;
+}
+
+.redes-sociales img {
+  height: 2rem;
+  filter: invert(1);
+}
+
+.derechos {
+  margin-bottom: 2rem;
+}
+.derechos img {
+  height: 1rem;
+  filter: invert(1);
+}
+.derechos p {
+  color: wheat;
 }
 
 /*# sourceMappingURL=styles.css.map */
