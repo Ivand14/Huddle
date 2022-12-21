@@ -246,7 +246,7 @@ html {
 }
 
 /*MEDIAQUERIES*/
-@media screen and (max-width: 375px) {
+@media (max-width: 875px) and (min-width: 375px) {
   .contenedor-header {
     background-image: url("../images/bg-hero-mobile.svg");
     background-size: cover;
